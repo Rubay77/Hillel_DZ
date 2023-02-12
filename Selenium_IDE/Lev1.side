@@ -1,0 +1,205 @@
+{
+  "id": "ec540ffe-3632-47a2-909b-730999df49bd",
+  "version": "2.0",
+  "name": "Lev1",
+  "url": "https://qauto2.forstudy.space",
+  "tests": [{
+    "id": "1e92df61-1581-435d-b743-4ec575e110d6",
+    "name": "Test1",
+    "commands": [{
+      "id": "05cfd909-3480-490e-950a-42db49dff7e5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "605f3e1e-ea4d-48b4-be05-2530897d82e4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "842x590",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f561f98a-63cc-42f9-ad72-b82760bc7f05",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-outline-white",
+      "targets": [
+        ["css=.btn-outline-white", "css:finder"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "286b6605-37ca-45f4-bccc-dc8b575cfb15",
+      "comment": "",
+      "command": "click",
+      "target": "id=signinEmail",
+      "targets": [
+        ["id=signinEmail", "id"],
+        ["name=email", "name"],
+        ["css=#signinEmail", "css:finder"],
+        ["xpath=//input[@id='signinEmail']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ea288d4-1f41-4904-a8f9-cd42c5fe1446",
+      "comment": "",
+      "command": "type",
+      "target": "id=signinEmail",
+      "targets": [
+        ["id=signinEmail", "id"],
+        ["name=email", "name"],
+        ["css=#signinEmail", "css:finder"],
+        ["xpath=//input[@id='signinEmail']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "levinrus02@gmail.com"
+    }, {
+      "id": "cdb4c1c0-59e7-4acf-a312-1a4387892dab",
+      "comment": "",
+      "command": "click",
+      "target": "id=signinPassword",
+      "targets": [
+        ["id=signinPassword", "id"],
+        ["name=password", "name"],
+        ["css=#signinPassword", "css:finder"],
+        ["xpath=//input[@id='signinPassword']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4ceabe8-776d-4959-8368-d028d0c9bdb6",
+      "comment": "",
+      "command": "type",
+      "target": "id=signinPassword",
+      "targets": [
+        ["id=signinPassword", "id"],
+        ["name=password", "name"],
+        ["css=#signinPassword", "css:finder"],
+        ["xpath=//input[@id='signinPassword']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "aC7aaMPKPjTUDwq"
+    }, {
+      "id": "b2924d1e-105b-42eb-a073-d45c57621f40",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary:nth-child(2)",
+      "targets": [
+        ["css=.btn-primary:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "558ef65b-5677-4dbd-b0aa-71203628669e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-white:nth-child(3)",
+      "targets": [
+        ["css=.btn-white:nth-child(3)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Instructions')])[3]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/panel/instructions')])[3]", "xpath:href"],
+        ["xpath=//div/div/div/div/nav/a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9342ad1-e6d9-4820-809c-3ea799275fa1",
+      "comment": "",
+      "command": "click",
+      "target": "id=brandSelectDropdown",
+      "targets": [
+        ["id=brandSelectDropdown", "id"],
+        ["css=#brandSelectDropdown", "css:finder"],
+        ["xpath=//button[@id='brandSelectDropdown']", "xpath:attributes"],
+        ["xpath=//div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Audi')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0171d1e4-55d9-40c9-ba30-cd1f508120eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.brand-select-dropdown_item:nth-child(2)",
+      "targets": [
+        ["css=.brand-select-dropdown_item:nth-child(2)", "css:finder"],
+        ["xpath=//li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'BMW')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "33a2fd7a-1e7e-4b80-970b-151f7b3d1167",
+      "comment": "",
+      "command": "click",
+      "target": "id=modelSelectDropdown",
+      "targets": [
+        ["id=modelSelectDropdown", "id"],
+        ["css=#modelSelectDropdown", "css:finder"],
+        ["xpath=//button[@id='modelSelectDropdown']", "xpath:attributes"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'3')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d45d5f9-51dc-411d-94ec-a08d8702d3f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.model-select-dropdown_item:nth-child(4)",
+      "targets": [
+        ["css=.model-select-dropdown_item:nth-child(4)", "css:finder"],
+        ["xpath=//div[2]/ul/li[4]", "xpath:position"],
+        ["xpath=//li[contains(.,'X6')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f954b68-43ac-4b7f-82f2-f32ebb7ce7de",
+      "comment": "",
+      "command": "click",
+      "target": "css=.instructions-search-controls_search",
+      "targets": [
+        ["css=.instructions-search-controls_search", "css:finder"],
+        ["xpath=//app-instructions-search-controls/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb194535-7f7e-4a45-b068-82e41a120957",
+      "comment": "",
+      "command": "click",
+      "target": "id=userNavDropdown",
+      "targets": [
+        ["id=userNavDropdown", "id"],
+        ["css=#userNavDropdown", "css:finder"],
+        ["xpath=//button[@id='userNavDropdown']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'My profile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "87f5047e-304c-4e28-aedd-d3b6bbfcaed3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-item:nth-child(6)",
+      "targets": [
+        ["css=.dropdown-item:nth-child(6)", "css:finder"],
+        ["xpath=//nav/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "32d51f51-aab5-476c-a133-1628abaa13a9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1e92df61-1581-435d-b743-4ec575e110d6"]
+  }],
+  "urls": ["https://qauto2.forstudy.space/"],
+  "plugins": []
+}
